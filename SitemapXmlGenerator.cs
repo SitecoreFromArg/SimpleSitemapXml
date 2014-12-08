@@ -12,7 +12,7 @@ using System.Web.Caching;
 
 namespace SitecoreFromArg.SimpleSitemapXml
 {
-    public class SitemapXmlGenerator : Sitecore.Pipelines.HttpRequest.HttpRequestProcessor
+    public class SitemapXmlGenerator : HttpRequestProcessor
     {
         public string sitemapUrl { get; set; }
         public string excludedPaths { get; set; }
